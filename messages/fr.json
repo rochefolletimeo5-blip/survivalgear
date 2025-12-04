@@ -1,0 +1,102 @@
+{
+  "header": {
+    "backpacks": "Sacs à dos",
+    "sleepSystem": "Système de couchage",
+    "camping": "Camping",
+    "clothing": "Vêtements",
+    "newArrivals": "Nouveautés",
+    "sale": "Soldes",
+    "brands": "Marques",
+    "account": "Mon compte",
+    "cart": "Panier",
+    "search": "Rechercher..."
+  },
+  "filters": {
+    "title": "Filtres",
+    "brand": "Marque",
+    "price": "Prix",
+    "availability": "Disponibilité",
+    "inStock": "En stock",
+    "size": "Taille",
+    "color": "Couleur",
+    "weight": "Poids",
+    "applyFilters": "Appliquer",
+    "clearFilters": "Effacer"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "addToWishlist": "Ajouter aux favoris",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "sku": "SKU",
+    "color": "Couleur",
+    "size": "Taille",
+    "quantity": "Quantité",
+    "description": "Description",
+    "reviews": "Avis",
+    "similarProducts": "Produits similaires",
+    "delivery": "Livraison estimée : {time}",
+    "buyerProtection": "Protection acheteur"
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "checkout": "Commander",
+    "continueShopping": "Continuer mes achats",
+    "removeItem": "Retirer",
+    "promoCode": "Code promo",
+    "applyPromo": "Appliquer"
+  },
+  "checkout": {
+    "title": "Paiement",
+    "shippingAddress": "Adresse de livraison",
+    "billingAddress": "Adresse de facturation",
+    "paymentMethod": "Méthode de paiement",
+    "orderSummary": "Récapitulatif",
+    "placeOrder": "Valider la commande",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "city": "Ville",
+    "postalCode": "Code postal",
+    "country": "Pays"
+  },
+  "account": {
+    "title": "Mon compte",
+    "orders": "Mes commandes",
+    "addresses": "Mes adresses",
+    "wishlist": "Liste de souhaits",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "footer": {
+    "aboutUs": "À propos",
+    "contact": "Contact",
+    "terms": "Conditions générales de vente",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique des cookies",
+    "legalNotice": "Mentions légales"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "cookies": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre utilisation des cookies.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "customize": "Personnaliser"
+  }
+}

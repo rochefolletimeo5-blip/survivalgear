@@ -1,0 +1,102 @@
+{
+  "header": {
+    "backpacks": "Backpacks",
+    "sleepSystem": "Sleep System",
+    "camping": "Camping",
+    "clothing": "Clothing",
+    "newArrivals": "New Arrivals",
+    "sale": "Sale",
+    "brands": "Brands",
+    "account": "My Account",
+    "cart": "Cart",
+    "search": "Search..."
+  },
+  "filters": {
+    "title": "Filters",
+    "brand": "Brand",
+    "price": "Price",
+    "availability": "Availability",
+    "inStock": "In Stock",
+    "size": "Size",
+    "color": "Color",
+    "weight": "Weight",
+    "applyFilters": "Apply",
+    "clearFilters": "Clear"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "sku": "SKU",
+    "color": "Color",
+    "size": "Size",
+    "quantity": "Quantity",
+    "description": "Description",
+    "reviews": "Reviews",
+    "similarProducts": "Similar Products",
+    "delivery": "Estimated delivery: {time}",
+    "buyerProtection": "Buyer Protection"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Checkout",
+    "continueShopping": "Continue Shopping",
+    "removeItem": "Remove",
+    "promoCode": "Promo Code",
+    "applyPromo": "Apply"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingAddress": "Shipping Address",
+    "billingAddress": "Billing Address",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "country": "Country"
+  },
+  "account": {
+    "title": "My Account",
+    "orders": "My Orders",
+    "addresses": "My Addresses",
+    "wishlist": "Wishlist",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "legalNotice": "Legal Notice"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "cookies": {
+    "message": "We use cookies to improve your experience. By continuing, you accept our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "customize": "Customize"
+  }
+}

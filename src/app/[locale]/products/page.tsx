@@ -1,4 +1,5 @@
 import { prisma } from '@/lib/prisma'
+import { Prisma } from '@prisma/client'
 import ProductGrid from './ProductGrid'
 import Filters from './Filters'
 
@@ -19,7 +20,7 @@ export default async function ProductsPage({
   const newArrivals = params.new === 'true'
 
   // Build query
-  const where: any = {
+  const where: Prisma.ProductWhereInput = {
     isActive: true,
   }
 

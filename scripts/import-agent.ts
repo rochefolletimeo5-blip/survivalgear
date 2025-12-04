@@ -11,7 +11,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { PrismaClient } from '@prisma/client'
-import { generateSlug } from '../src/lib/utils.js'
+import { generateSlug } from '../src/lib/utils'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)

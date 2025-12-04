@@ -1,0 +1,5 @@
+# Add product URLs here (one per line)
+# Supported: AliExpress, Hipobuy
+# Example:
+# https://www.aliexpress.com/item/1005001234567890.html
+# https://www.hipobuy.com/product/example-product

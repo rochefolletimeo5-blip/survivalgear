@@ -96,7 +96,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-800">Adresse</h3>
                     <p className="text-gray-600">
-                      123 Rue de l'Aventure<br />
+                      123 Rue de l&apos;Aventure<br />
                       75001 Paris, France
                     </p>
                   </div>
@@ -117,9 +117,9 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-forest-green text-white rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4">Besoin d'aide?</h3>
+              <h3 className="text-xl font-bold mb-4">Besoin d&apos;aide?</h3>
               <p className="mb-4">
-                Notre équipe d'experts est disponible pour répondre à toutes vos questions 
+                Notre équipe d&apos;experts est disponible pour répondre à toutes vos questions 
                 sur nos produits et vous conseiller pour vos aventures.
               </p>
               <p className="font-semibold">

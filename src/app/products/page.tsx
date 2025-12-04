@@ -11,8 +11,8 @@ export default function ProductsPage() {
           Nos Produits
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Découvrez notre gamme complète d'équipement de survie et outdoor. 
-          Des produits de qualité pour tous vos besoins d'aventure.
+          Découvrez notre gamme complète d&apos;équipement de survie et outdoor. 
+          Des produits de qualité pour tous vos besoins d&apos;aventure.
         </p>
       </div>
 

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="bg-dark-olive text-white mt-16">
@@ -9,7 +11,7 @@ export default function Footer() {
               SurvivalGear
             </h3>
             <p className="text-gray-300">
-              Votre partenaire de confiance pour tout votre équipement de survie et d'aventure outdoor.
+              Votre partenaire de confiance pour tout votre équipement de survie et d&apos;aventure outdoor.
             </p>
           </div>
           
@@ -17,24 +19,24 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Liens rapides</h4>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-300 hover:text-nature-beige transition-colors">
+                <Link href="/" className="text-gray-300 hover:text-nature-beige transition-colors">
                   Accueil
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/products" className="text-gray-300 hover:text-nature-beige transition-colors">
+                <Link href="/products" className="text-gray-300 hover:text-nature-beige transition-colors">
                   Produits
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-300 hover:text-nature-beige transition-colors">
+                <Link href="/about" className="text-gray-300 hover:text-nature-beige transition-colors">
                   À propos
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-gray-300 hover:text-nature-beige transition-colors">
+                <Link href="/contact" className="text-gray-300 hover:text-nature-beige transition-colors">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

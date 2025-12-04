@@ -16,18 +16,18 @@ export default function AboutPage() {
               Notre Mission
             </h2>
             <p className="text-gray-700 mb-6">
-              Chez SurvivalGear, notre mission est de fournir à tous les passionnés d'outdoor 
-              et d'aventure l'équipement de survie de la plus haute qualité. Nous croyons que 
-              chaque aventure mérite d'être vécue en toute sécurité et avec le meilleur matériel.
+              Chez SurvivalGear, notre mission est de fournir à tous les passionnés d&apos;outdoor 
+              et d&apos;aventure l&apos;équipement de survie de la plus haute qualité. Nous croyons que 
+              chaque aventure mérite d&apos;être vécue en toute sécurité et avec le meilleur matériel.
             </p>
 
             <h2 className="text-3xl font-bold text-forest-green mb-4">
               Notre Histoire
             </h2>
             <p className="text-gray-700 mb-6">
-              Fondée par des passionnés d'aventures outdoor, SurvivalGear est née de la volonté 
+              Fondée par des passionnés d&apos;aventures outdoor, SurvivalGear est née de la volonté 
               de rendre accessible un équipement de survie professionnel à tous. Après des années 
-              d'expérience sur le terrain, nous savons exactement ce dont vous avez besoin pour 
+              d&apos;expérience sur le terrain, nous savons exactement ce dont vous avez besoin pour 
               vos expéditions.
             </p>
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-forest-green mr-2">✓</span>
-                <span><strong>Expertise:</strong> Notre équipe est composée d'experts en survie et outdoor</span>
+                <span><strong>Expertise:</strong> Notre équipe est composée d&apos;experts en survie et outdoor</span>
               </li>
               <li className="flex items-start">
                 <span className="text-forest-green mr-2">✓</span>
@@ -49,7 +49,7 @@ export default function AboutPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-forest-green mr-2">✓</span>
-                <span><strong>Durabilité:</strong> Nous privilégions des produits durables et respectueux de l'environnement</span>
+                <span><strong>Durabilité:</strong> Nous privilégions des produits durables et respectueux de l&apos;environnement</span>
               </li>
             </ul>
 
@@ -57,8 +57,8 @@ export default function AboutPage() {
               Pourquoi Nous Choisir?
             </h2>
             <p className="text-gray-700 mb-6">
-              Avec SurvivalGear, vous bénéficiez de l'expertise d'une équipe passionnée, 
-              d'un service client réactif, et d'une sélection rigoureuse de produits. 
+              Avec SurvivalGear, vous bénéficiez de l&apos;expertise d&apos;une équipe passionnée, 
+              d&apos;un service client réactif, et d&apos;une sélection rigoureuse de produits. 
               Nous testons personnellement chaque article avant de le proposer à la vente.
             </p>
           </div>
@@ -75,7 +75,7 @@ export default function AboutPage() {
           </div>
           <div className="bg-forest-green text-white p-6 rounded-lg text-center">
             <div className="text-4xl font-bold mb-2">15+</div>
-            <div className="text-lg">Années d'expérience</div>
+            <div className="text-lg">Années d&apos;expérience</div>
           </div>
         </div>
       </div>

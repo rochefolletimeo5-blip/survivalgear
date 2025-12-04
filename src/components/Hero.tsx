@@ -6,10 +6,10 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Équipez-vous pour l'Aventure
+            Équipez-vous pour l&apos;Aventure
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200">
-            Découvrez notre gamme complète de matériel de survie et d'équipement outdoor 
+            Découvrez notre gamme complète de matériel de survie et d&apos;équipement outdoor 
             pour vos aventures en pleine nature.
           </p>
           <div className="flex gap-4 flex-wrap">

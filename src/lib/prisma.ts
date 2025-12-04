@@ -6,24 +6,23 @@ const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined
 }
 
-let prisma: PrismaClient
-
-if (process.env.NODE_ENV === 'production') {
-  // For production, create connection pool
+function createPrismaClient() {
   const connectionString = `${process.env.DATABASE_URL}`
   const pool = new Pool({ connectionString })
   const adapter = new PrismaPg(pool)
-  prisma = new PrismaClient({ adapter })
+  return new PrismaClient({ 
+    adapter,
+    log: process.env.NODE_ENV === 'development' ? ['query', 'error', 'warn'] : ['error']
+  })
+}
+
+let prisma: PrismaClient
+
+if (process.env.NODE_ENV === 'production') {
+  prisma = createPrismaClient()
 } else {
-  // For development, use cached client
   if (!globalForPrisma.prisma) {
-    const connectionString = `${process.env.DATABASE_URL}`
-    const pool = new Pool({ connectionString })
-    const adapter = new PrismaPg(pool)
-    globalForPrisma.prisma = new PrismaClient({ 
-      adapter,
-      log: ['query', 'error', 'warn']
-    })
+    globalForPrisma.prisma = createPrismaClient()
   }
   prisma = globalForPrisma.prisma
 }

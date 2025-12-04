@@ -13,7 +13,7 @@ export default function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Banner */}
       <div className="bg-blue-600 text-white text-center py-2 text-sm">
-        🚚 Livraison express disponible - Commandez maintenant !
+        {t('banner')}
       </div>
       
       {/* Main Header */}
